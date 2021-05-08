@@ -1,0 +1,100 @@
+*{
+  background-color: #fee5ac;
+}
+.numbers{
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  color: #FAE7B5;
+  background-color: #555555;
+  box-shadow: 3px 3px 7px #000;
+}
+.numbers:active{
+  background-color:#f0e891;
+}
+.button{
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  color: #FAE7B5;
+  background-color: #555555;
+  box-shadow: 3px 3px 7px #000;
+}
+.button:active{
+  background-color: #cac4b0;
+}
+.operator{
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  color: #FAE7B5;
+  background-color: #BA7FA2;
+  box-shadow: 3px 3px 7px #000;
+}
+.operator:active{
+  background-color: #fadbc8;
+}
+
+.equal{
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  color: black;
+  background-color: snow;
+  box-shadow: 3px 3px 7px #000;
+}
+.equal:active{
+  background-color: #007ba7;
+}
+.main {
+  margin: 0 auto ;
+  margin-top: 5px;
+  width: 180px;
+  color: snow;
+  background-color: #fff8dc;
+}
+
+.line {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 208px;
+  height: 240px;
+  background-color: #fee5ac;
+  border-radius: 5px;
+  border: 1px solid #b5b5ae;
+  box-shadow: 3px 3px 7px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
